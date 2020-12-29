@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    padding: 0px 0px 0px 0px;
+}
+
+table.pixelCanvas,
+tr.pixelRow,
+td.pixelCell {
+    border: 1px solid black;
+}
+
+tr.pixelRow {
+    height: 20px;
+}
+
+td.pixelCell {
+    width: 20px;
+}
+
+table.previewCanvas {
+    border: 1px solid black;
+}
+
+tr.previewRow, td.previewCell {
+    border: 0px solid black;
+}
+
+tr.previewRow {
+    height: 5px;
+}
+
+td.previewCell {
+    width: 5px;
+}
+
+input[type="number"] {
+    width: 6em;
+}
+
+p {
+    font-size: small;
+}
